@@ -1,8 +1,6 @@
 Definitions
 -----------
 
-Consider a system in two dimensions.
-
 Let a *cell* be defined as an agent with three states, *inflated*, *deflated*,
 and *normal*. In the normal state, the agent is a circle with unit volume. In
 the inflated state, it has twice its normal volume, and in the deflated state,
@@ -118,3 +116,11 @@ outgoing.
 When multiple objects are to be moved simultaneously, we must then check for
 feasibility by ensuring that homology constraints are satisfied. All assignments
 of orientations to all cycles must be compatible.
+
+Dimension of cycle space vs number of objects
+
+Conjecture: if rank of cycle space is equal to or greater than number of
+objects, they can be moved arbitrarily.
+
+Toy example: circle with diameter, three objects in middle, what are relations
+about how they can be placed?
